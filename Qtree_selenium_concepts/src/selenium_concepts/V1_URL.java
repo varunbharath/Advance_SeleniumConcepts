@@ -24,7 +24,6 @@ public class V1_URL {
 		driver.navigate().forward();
 		//driver.close();
 		driver.navigate().to("https://www.google.com/search?q=Accenture");
-		WebElement clickthe1sturl=driver.findElement(By.xpath("//a[contains(@href,'https://www.accenture.com/in-en')]//following::h3[text()=\"Accenture: India | Let There Be Change\"]"));
-	clickthe1sturl.click();}
-
+		
+	driver.close();}
 }
